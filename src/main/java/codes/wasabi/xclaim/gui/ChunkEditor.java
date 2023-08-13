@@ -388,7 +388,7 @@ public class ChunkEditor {
         initialized = true;
         CLAIM_STACK = DisplayItem.create(Platform.get().getGreenToken(), XClaim.lang.getComponent("chunk-editor-claim"));
         UNCLAIM_STACK = DisplayItem.create(Platform.get().getRedToken(), XClaim.lang.getComponent("chunk-editor-unclaim"));
-        QUIT_STACK = DisplayItem.create(Material.BARRIER, XClaim.lang.getComponent("chunk-editor-quit"));
+        QUIT_STACK = DisplayItem.create(Material.BLACK_DYE, XClaim.lang.getComponent("chunk-editor-quit"));
         KEY_FLAG = Objects.requireNonNull(Platform.get().createNamespacedKey(XClaim.instance, "ce_flag"));
         KEY_NAME = Objects.requireNonNull(Platform.get().createNamespacedKey(XClaim.instance, "ce_name"));
         KEY_INVENTORY = Objects.requireNonNull(Platform.get().createNamespacedKey(XClaim.instance, "ce_inventory"));
